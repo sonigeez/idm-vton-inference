@@ -1,5 +1,5 @@
 ---
-title: IDM VTON
+title: Virtual Try On
 emoji: 👕👔👚
 colorFrom: yellow
 colorTo: red
