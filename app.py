@@ -259,7 +259,7 @@ for ex_human in human_list_path:
 
 
 image_blocks = gr.Blocks().queue()
-with image_blocks as demo:
+with image_blocks(theme="Nymbo/Alyx_Theme) as demo:
     gr.Markdown("## Virtual Try-On 👕👔👚")
     gr.Markdown("Upload an image of a person and an image of a garment ✨.")
     with gr.Row():
