@@ -260,8 +260,8 @@ for ex_human in human_list_path:
 
 image_blocks = gr.Blocks(theme="Nymbo/Alyx_Theme").queue()
 with image_blocks as demo:
-    gr.Markdown("## Virtual Try-On 👕👔👚")
-    gr.Markdown("Upload an image of a person and an image of a garment ✨.")
+    gr.HTML("<center><h1>Virtual Try-On 👕👔👚</h1></center>")
+    gr.HTML("<center><h1>Upload an image of a person and an image of a garment ✨</h1></center>")
     with gr.Row():
         with gr.Column():
             imgs = gr.ImageEditor(sources='upload', type="pil", label='Human. Mask with pen or use auto-masking', interactive=True)
