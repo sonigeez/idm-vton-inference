@@ -258,7 +258,7 @@ for ex_human in human_list_path:
 ##default human
 
 
-image_blocks = gr.Blocks().queue()
+image_blocks = gr.Blocks(theme="Nymbo/Alyx_Theme").queue()
 with image_blocks as demo:
     gr.Markdown("## Virtual Try-On 👕👔👚")
     gr.Markdown("Upload an image of a person and an image of a garment ✨.")
