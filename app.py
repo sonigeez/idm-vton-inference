@@ -1,4 +1,5 @@
 import gradio as gr
+import spaces
 from PIL import Image
 from src.tryon_pipeline import StableDiffusionXLInpaintPipeline as TryonPipeline
 from src.unet_hacked_garmnet import UNet2DConditionModel as UNet2DConditionModel_ref
@@ -15,7 +16,6 @@ from typing import List
 import torch
 import os
 from transformers import AutoTokenizer
-import spaces
 import numpy as np
 from utils_mask import get_mask_location
 from torchvision import transforms
