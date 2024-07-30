@@ -260,7 +260,7 @@ for ex_human in human_list_path:
 
 image_blocks = gr.Blocks(theme="Nymbo/Alyx_Theme").queue()
 with image_blocks as demo:
-    gr.HTML("<center><h1>Virtual Try-On 👕👔👚</h1></center>")
+    gr.HTML("<center><h1>Virtual Try-On</h1></center>")
     gr.HTML("<center><p>Upload an image of a person and an image of a garment ✨</p></center>")
     with gr.Row():
         with gr.Column():
